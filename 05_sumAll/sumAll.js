@@ -6,11 +6,9 @@ const sumAll = function(startingNumber, endingNumber) {
         return "ERROR";
     }
 
-    // console.log(typeof(startingNumber));
-    // console.log(typeof(endingNumber));
 
 
-    if(typeof(startingNumber) != "number" || typeof(endingNumber) != "number") {
+    if(typeof(startingNumber) != "number" || typeof(endingNumber) != "number") { //Alternative: Number.isInteger(startingNumber)
         return "ERROR";
     }
 

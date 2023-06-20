@@ -1,13 +1,4 @@
 const convertToCelsius = function(fahrenheit) {
-  
-  // let celsius = ((fahrenheit - 32) * 5 / 9);
-
-  // if(celsius == 0) {
-  //   return celsius.toFixed(0);
-  // } else {
-  //   return celsius.toFixed(1);
-  // }
-  
   return Number(((fahrenheit - 32) * 5 / 9).toFixed(1));
 };
 
