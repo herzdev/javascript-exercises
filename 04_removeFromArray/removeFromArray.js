@@ -30,10 +30,8 @@ PSEUDOCODE
             } else {
                 continue;
             }
-            
         }
     }
-
     return arguments[0];
 };
 
